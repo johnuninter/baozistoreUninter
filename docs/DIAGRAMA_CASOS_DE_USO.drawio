@@ -1,0 +1,130 @@
+<mxfile host="Electron" agent="Manus">
+  <diagram id="baozistore-use-case" name="Diagrama de Caso de Uso">
+    <mxGraphModel dx="597" dy="367" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1400" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cFQLiYcSVlrONx4SSLmr-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="730" width="410" x="305" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="actor" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=2;fontSize=14;" value="Usuário da API" vertex="1">
+          <mxGeometry height="150" width="100" x="20" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="DXnf0GkOjnS-u3B-d2xN-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;spacing=-11;" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Baozi Store - Diagrama de Caso de Uso&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="430" x="295" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="cc" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#5b9bd5;fontSize=12;" value="Cadastrar cliente&lt;div&gt;POST/clientes&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="340" x="340" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="lc" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#5b9bd5;fontSize=12;" value="Listar clientes&lt;div&gt;GET /clientes&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="340" x="340" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="ic" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#5b9bd5;fontSize=12;" value="Consultar cliente por ID&lt;div&gt;GET /&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;/clientes/{id}&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="340" x="340" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="ec" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#5b9bd5;fontSize=12;" value="Excluir cliente&lt;div&gt;DELETE /&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;/clientes/{id}&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="340" x="340" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="cp" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#70ad47;fontSize=12;" value="Cadastrar produto&lt;div&gt;POST /produtos&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="340" x="340" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="lp" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#70ad47;fontSize=12;" value="Listar produtos&lt;div&gt;GET&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;/produtos&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="340" x="340" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="ip" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#70ad47;fontSize=12;" value="Consultar produto por ID&lt;div&gt;GET /&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt; &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;/produtos/{id}&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="340" x="340" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="ep" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#70ad47;fontSize=12;" value="Excluir produto&lt;div&gt;DELETE&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;/produtos/{id}&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="340" x="340" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="co" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#ed7d31;fontSize=12;" value="Registrar pedido&lt;div&gt;POST /pedidos&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="340" x="340" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="lo" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#ed7d31;fontSize=12;" value="Listar pedidos&lt;div&gt;GET&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;/pedidos&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="340" x="340" y="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="io" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#ed7d31;fontSize=12;" value="Consultar pedido por ID&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;GET&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;/pedidos&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="340" x="340" y="1125" as="geometry" />
+        </mxCell>
+        <mxCell id="eo" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#ed7d31;fontSize=12;" value="Excluir pedido&lt;div&gt;DELETE&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;/&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;pedidos/{id}&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="340" x="340" y="1177" as="geometry" />
+        </mxCell>
+        <mxCell id="cFQLiYcSVlrONx4SSLmr-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;spacing=-11;" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;API REST -- Baozi Store&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="360" x="330" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="cFQLiYcSVlrONx4SSLmr-5" edge="1" parent="1" source="actor" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" target="cc" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="900" as="sourcePoint" />
+            <mxPoint x="450" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cFQLiYcSVlrONx4SSLmr-6" edge="1" parent="1" source="actor" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" target="lc" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="170" y="1088" as="sourcePoint" />
+            <mxPoint x="360" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cFQLiYcSVlrONx4SSLmr-7" edge="1" parent="1" source="actor" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" target="ic" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="260" y="1030" as="sourcePoint" />
+            <mxPoint x="450" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cFQLiYcSVlrONx4SSLmr-8" edge="1" parent="1" source="actor" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" target="ec" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="180" y="1010" as="sourcePoint" />
+            <mxPoint x="370" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cFQLiYcSVlrONx4SSLmr-9" edge="1" parent="1" source="actor" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" target="cp" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="230" y="860" as="sourcePoint" />
+            <mxPoint x="420" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cFQLiYcSVlrONx4SSLmr-10" edge="1" parent="1" source="actor" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" target="lp" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="260" y="940" as="sourcePoint" />
+            <mxPoint x="450" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cFQLiYcSVlrONx4SSLmr-11" edge="1" parent="1" source="actor" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" target="ip" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="210" y="1010" as="sourcePoint" />
+            <mxPoint x="400" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cFQLiYcSVlrONx4SSLmr-12" edge="1" parent="1" source="ep" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=1;entryY=0.3333333333333333;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" target="actor" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="320" y="1060" as="sourcePoint" />
+            <mxPoint x="510" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cFQLiYcSVlrONx4SSLmr-13" edge="1" parent="1" source="co" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=1;entryY=0.3333333333333333;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" target="actor" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="330" y="1120" as="sourcePoint" />
+            <mxPoint x="520" y="1070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cFQLiYcSVlrONx4SSLmr-14" edge="1" parent="1" source="lo" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=1;entryY=0.3333333333333333;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" target="actor" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="190" y="1240" as="sourcePoint" />
+            <mxPoint x="380" y="1190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cFQLiYcSVlrONx4SSLmr-15" edge="1" parent="1" source="io" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=1;entryY=0.3333333333333333;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" target="actor" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="200" y="1320" as="sourcePoint" />
+            <mxPoint x="390" y="1270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cFQLiYcSVlrONx4SSLmr-16" edge="1" parent="1" source="eo" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=1;entryY=0.3333333333333333;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" target="actor" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="280" y="1250" as="sourcePoint" />
+            <mxPoint x="470" y="1200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

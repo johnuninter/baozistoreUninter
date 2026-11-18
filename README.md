@@ -255,7 +255,7 @@ Corpo:
 ```
 {
   "nome": "Baozi de carne",
-  "preco": 12.50,
+  "preco": 8.50,
   "estoque": true
 }
 ```
